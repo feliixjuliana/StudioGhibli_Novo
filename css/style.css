@@ -1,0 +1,367 @@
+ * {
+   margin: 0;
+   padding: 0;
+ }
+
+ #Pagina-inicial {
+   height: 100vh;
+   background-image: url(../imagens/My_Neighbor_Totoro.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+
+ }
+
+ .cabecalho {
+   padding: 30px 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+
+
+ #link {
+   font-family: monospace;
+   font-size: 20px;
+   padding: 15px;
+   margin: 20px;
+   color: white;
+   background-color: rgba(91, 182, 91, 0.847);
+   border-radius: 24px;
+ }
+
+ @media (max-width: 500px) {
+   .cabecalho {
+     margin: 10px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+   }
+
+
+   #link {
+     font-family: monospace;
+     font-size: 13px;
+     padding: 15px;
+     margin: 3px;
+     color: white;
+     background-color: rgba(91, 182, 91, 0.847);
+     border-radius: 24px;
+   }
+ }
+
+ #link:hover {
+   background-color: rgb(219, 239, 219);
+   color: rgb(91, 182, 91);
+   transition: 1s;
+
+ }
+
+ /* Formatando os links */
+
+ a#link {
+   text-decoration: none;
+ }
+
+ .mainIndex {
+   padding: 70px;
+   width: auto;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: green;
+
+ }
+
+ @media (max-width: 500px) {
+   .mainIndex {
+     padding: 0;
+     display: flex;
+     flex-direction: column-reverse;
+     margin: 10px;
+
+   }
+
+ }
+
+
+ .texto {
+   margin-right: 50px;
+   background-color: rgba(255, 255, 255, 0.41);
+   font-family: monospace;
+   padding: 50px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border-radius: 30px;
+   backdrop-filter: blur(50px);
+   transition: 2s;
+
+ }
+
+ @media (max-width: 500px) {
+   .texto {
+     margin: 10px;
+     padding: 10px;
+   }
+ }
+
+ .texto:hover {
+   background-color: rgba(91, 182, 91, 0.659);
+   backdrop-filter: blur(50px);
+   transition: 2s;
+   color: white;
+ }
+
+ #titulo {
+   margin-bottom: 30px;
+   font-size: 40px;
+
+ }
+
+ #resumo {
+   font-size: 20px;
+
+ }
+
+ @media (max-width: 500px) {
+
+   #titulo {
+   margin-bottom: 10px;
+   font-size: 25px;
+
+ }
+
+ #resumo {
+   font-size: 15px;
+
+ }
+
+ }
+
+ #imagem1 {
+   border-radius: 50px;
+   opacity: 0.6;
+   transition: 2s;
+   height:300px;
+   width: auto;
+ }
+
+ #imagem1:hover {
+   opacity: 1;
+   transition: 2s;
+ }
+
+ @media (max-width: 500px) {
+ #imagem1 {
+   border-radius: 50px;
+   opacity: 0.6;
+   transition: 2s;
+   height:130px;
+   width: auto;
+ }
+
+ #imagem1:hover {
+   opacity: 1;
+   transition: 2s;
+ }
+ }
+
+ /* Página de Filmes */
+
+ #Pagina-Filmes {
+   min-height: 100vh;
+   background-image: url(../imagens/Totoro.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   backdrop-filter: blur(10px);
+
+ }
+
+ #FilmesMain {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+
+ .filmes {
+   width: 450px;
+   display: flex;
+   background-color: rgba(255, 255, 255, 0.568);
+   margin: 10px;
+   border-radius: 20px;
+
+ }
+
+ .imgFilmes {
+   width: 200px;
+   border-radius: 20px;
+   margin: 13px;
+ }
+
+ #infor {
+
+   margin-top: 20px;
+   color: green;
+   font-size: 15px;
+   font-family: monospace;
+
+   h5 {
+     font-size: 24px;
+   }
+ }
+
+ @media (max-width: 500px) {
+   .imgFilmes {
+     width: 120px;
+     border-radius: 20px;
+     margin: 13px;
+   }
+
+   #infor {
+
+     margin-top: 10px;
+     color: green;
+     font-size: 13px;
+     font-family: monospace;
+     padding: 3px;
+
+     h5 {
+       font-size: 17px;
+     }
+   }
+ }
+
+
+ /* Página de Desenvolvedora */
+
+ #Pagina-Desenvolvedora {
+   height: 100vh;
+   background-image: url(../imagens/Casinha.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   backdrop-filter: blur(10px);
+ }
+
+ .infor2 {
+   padding: 90px;
+   width: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: green;
+
+ }
+
+ @media (max-width: 500px) {
+   .infor2 {
+   padding: 10px;
+   width: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   color: green;
+
+ }
+ }
+
+ #Imagem-Ghibli {
+   height: 400px;
+   width: auto;
+   border-radius: 500px;
+ }
+
+ .texto1 {
+   margin-left: 30px;
+   background-color: rgba(255, 255, 255, 0.41);
+   font-family: monospace;
+   padding: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border-radius: 30px;
+   backdrop-filter: blur(50px);
+   transition: 2s;
+
+ }
+
+ @media (max-width:500px) {
+   #Imagem-Ghibli {
+    height: 220px;
+    border-radius: 500px;
+ }
+
+ .texto1 {
+   padding: 10px;
+   margin: 10px;
+ }
+ }
+
+ .texto1:hover {
+   background-color: rgba(91, 182, 91, 0.659);
+   backdrop-filter: blur(50px);
+   transition: 2s;
+   color: white;
+ }
+
+ #resumo-academico {
+   font-size: 20px;
+
+ }
+
+ .redesSociais {
+   padding: 5px;
+   margin: 15px;
+   display: flex;
+  
+ }
+
+ #Github {
+   margin-right: 10px;
+   width: 50px;
+ }
+
+ #LinkedIn{
+   width: 50px;
+ }
+
+ #LinkedIn,
+ #Github {
+   color: green;
+ }
+
+ #LinkedIn:hover,
+ #Github:hover {
+   color: rgb(255, 255, 255);
+ }
+
+ @media (max-width: 500px) {
+ #resumo-academico {
+   font-size: 15px;
+
+ }
+
+ .redesSociais {
+   padding: 2px;
+   margin: 5px;
+ }
+
+ #Github {
+   margin-right: 29px;
+   width: 30px;
+ }
+
+  #LinkedIn {
+   margin-right: 29px;
+   width: 30px;
+ }
+
+ }
