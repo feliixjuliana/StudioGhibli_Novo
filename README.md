@@ -1,6 +1,6 @@
 # 🎬 Studio Ghibli - Catálogo de Filmes
 
-[🔗 Acesse o projeto online](https://feliixjuliana.github.io/StudioGhibli/)
+[🔗 Acesse o projeto online](https://feliixjuliana.github.io/StudioGhibli_Novo/)
 
 Este projeto é uma página simples que lista todos os filmes do Studio Ghibli, usando **HTML**, **CSS puro**.
 
